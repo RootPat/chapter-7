@@ -1,1 +1,1 @@
-python penetration testing scripts
+python penetration testing scripts from Justin Seitz. Justin's work was in Python 2, these we're converted to Python 3. Some include small modifications.
