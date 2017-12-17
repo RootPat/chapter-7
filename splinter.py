@@ -1,3 +1,4 @@
+#trojan that uses Github as its command and control framework
 import json 
 import base64
 import sys 
