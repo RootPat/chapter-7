@@ -8,7 +8,7 @@ import threading
 from multiprocessing import Queue 
 import os 
 
-from github3 import login 
+from pygithub3 import github3
 
 t_id ="tapat"
 
