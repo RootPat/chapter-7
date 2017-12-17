@@ -12,7 +12,7 @@ user_agent = "Mozilla/5.0 (x11; Linux x86_64;rv:19.0) Gecko/20100101 Firefox/19.
 def build_wordlist (wordlist_file):
 
 	#read in the word list 
-	fd = open(wordlist_file, "rb")
+	fd = open(wordlist_file, "fb")
 	raw_words = fd.readlines()
 	fd.close()
 
