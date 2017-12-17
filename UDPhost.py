@@ -24,6 +24,6 @@ if os.name == "nt":
 print (sniffer.recvfrom(65565))
 
 #if using windows, turn off promiscuous mode 
-if os.name -- "nt":
+if os.name == "nt":
 	sniffer.ioctl9(socket.SIO_RCVALL, socket.RCVALL_OFF)
 
