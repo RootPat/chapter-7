@@ -10,7 +10,7 @@ import os
 
 from pygithub3 import github3
 
-t_id ="tapat"
+t_id =""
 
 t_config = "%s.json" % t_id
 data_path = "data/%s/" % t_id
