@@ -105,7 +105,7 @@ def detect_sandbox():
 
 				previous_timestamp = keypress_time
 
-				eliff keypress_time is not None:
+				elif keypress_time is not None:
 				previous_timestamp = keypress_time
 		detect_sandbox()
 		print("boom")
