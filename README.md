@@ -1,2 +1,2 @@
-Python penetration testing scripts.
+Python penetration testing scripts from Justin Seitz. 
 
